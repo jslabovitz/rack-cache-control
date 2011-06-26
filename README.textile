@@ -1,0 +1,5 @@
+Set the Cache-Control response header.
+
+Note that this was not written by me, but rather by Geoff Buesing <gbuesing@gmail.com> who contributed a patch
+to the rack/contrib gem (see "here":http://s3.amazonaws.com/activereload-lighthouse/assets/487eef2f568e66ffa744c0142e9277f4931d4934/rack_cache_control.diff?AWSAccessKeyId=1AJ9W2TX1B2Z7C2KYB82&Expires=1309021087&Signature=q5P7UbpLtMJXlXUXfhBH9Jfh%2B3Y%3D); apparently it was never integrated.  I fixed a failing test, but otherwise have not 
+significantly changed the code.
