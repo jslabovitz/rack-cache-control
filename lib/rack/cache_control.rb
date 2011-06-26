@@ -2,9 +2,7 @@ require 'rack'
 
 module Rack
   class CacheControl
-    
-    VERSION = '0.0.1'
-    
+        
     # Lets you set the Cache-Control response header from middleware. Does not overwrite
     # existing Cache-Control response header, if it already has been set.
     #

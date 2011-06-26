@@ -1,13 +1,8 @@
 # -*- encoding: utf-8 -*-
 
-lib = File.expand_path('../lib/', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-
-require 'rack/cache_control'
-
 Gem::Specification.new do |s|
   s.name          = 'rack-cache-control'
-  s.version       = Rack::CacheControl::VERSION
+  s.version       = '0.0.1'
   s.summary       = 'Set the Cache-Control response header.'
 
   s.author        = 'John Labovitz'
